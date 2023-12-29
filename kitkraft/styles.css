@@ -1,0 +1,162 @@
+.bg-white {
+	background-color: white;
+}
+
+body {
+	background-color: #e8439320;
+}
+
+.content {
+	transform: translateY(50%);
+	/* min-height:  */
+}
+
+.margin-top {
+	margin-top: 5vh;
+}
+
+.pointer {
+	cursor: pointer;
+}
+.hover-item {
+	transition: all 0.2s ease-in-out;
+	border: 2px solid gray;
+}
+.hover-item:hover {
+	box-shadow: 0px 0px 14px #00000040;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.min-width {
+	width: 90vw;
+}
+
+.full-width-sm {
+	width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+	.min-width {
+		width: 500px;
+	}
+
+	.padding-x {
+		padding-inline: 2rem;
+	}
+	/* .full-width-sm {
+		width: 50%;
+	} */
+}
+
+.title {
+	font-size: 28px;
+}
+.sub-title {
+	font-size: 16px;
+}
+
+.gap-y {
+	row-gap: 20px;
+}
+
+.color-1 {
+	color: #e25d4e;
+}
+
+.bg-color-1 {
+	background-color: #e25d4e;
+}
+
+.color-2 {
+	color: #a93545;
+}
+
+.color-3 {
+	color: #d9528b;
+}
+
+.color-4 {
+	color: #ff92e8;
+}
+.bg-color-2 {
+	background-color: #a93545;
+}
+
+.bg-color-3 {
+	background-color: #d9528b;
+}
+
+.bg-color-4 {
+	background-color: #ff92e8;
+}
+
+.btn-check-step-1:checked + label {
+	background-color: #e25d4e;
+	color: white;
+	border: 2px solid #e25d4e;
+}
+
+.btn-check-step-1 + label:hover {
+	background-color: #e25d4e;
+	border: 2px solid #e25d4e;
+	color: white;
+}
+
+.btn-check-step-1 + label {
+	border-color: #e25d4e;
+	/* border-color: #e25d4e; */
+}
+
+.btn-check-step-2:checked + label {
+	background-color: #681b13;
+	color: white;
+	border: 2px solid #681b13;
+}
+
+.btn-check-step-2 + label:hover {
+	background-color: #681b13;
+	border: 2px solid #681b13;
+	color: white;
+}
+
+.btn-check-step-2 + label {
+	border-color: #681b13;
+	/* border-color: #e25d4e; */
+}
+.btn-check-step-3:checked + label {
+	background-color: #053642;
+	color: white;
+	border: 2px solid #053642;
+}
+
+.btn-check-step-3 + label:hover {
+	background-color: #053642;
+	border: 2px solid #053642;
+	color: white;
+}
+
+.btn-check-step-3 + label {
+	border-color: #053642;
+	/* border-color: #e25d4e; */
+}
+.btn-check-step-4:checked + label {
+	background-color: #311368;
+	color: white;
+	border: 2px solid #311368;
+}
+
+.btn-check-step-4 + label:hover {
+	background-color: #311368;
+	border: 2px solid #311368;
+	color: white;
+}
+
+.btn-check-step-4 + label {
+	border-color: #311368;
+	/* border-color: #e25d4e; */
+}
+
+#error:checked + div {
+	display: none;
+}
